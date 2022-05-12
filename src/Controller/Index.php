@@ -24,4 +24,12 @@ class Index extends AbstractController
         ]);
     }
 
+    #[Route('/contactUs', name: 'contactUs')]
+    public function contactUs(): Response
+    {
+        return $this->render('pages/contactUs.html.twig', [
+
+        ]);
+    }
+
 }
