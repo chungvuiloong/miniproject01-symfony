@@ -11,7 +11,7 @@ class Index extends AbstractController
     #[Route('/', name: 'home')]
     public function index(): Response
     {
-        return $this->render('index/index.html.twig', [
+        return $this->render('pages/index.html.twig', [
 
         ]);
     }
@@ -19,7 +19,7 @@ class Index extends AbstractController
     #[Route('/aboutUs', name: 'aboutUs')]
     public function aboutUs(): Response
     {
-        return $this->render('index/aboutUs.html.twig', [
+        return $this->render('pages/aboutUs.html.twig', [
 
         ]);
     }
