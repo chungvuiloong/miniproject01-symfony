@@ -32,10 +32,10 @@ class Index extends AbstractController
         ]);
     }
 
-    #[Route('/kevin', name: 'kevin')]
-    public function kevin(): Response
+    #[Route('/team', name: 'team')]
+    public function team(): Response
     {
-        return $this->render('pages/kevin.html.twig', [
+        return $this->render('pages/team.html.twig', [
 
         ]);
     }
