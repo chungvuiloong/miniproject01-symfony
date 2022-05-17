@@ -32,4 +32,12 @@ class Index extends AbstractController
         ]);
     }
 
+    #[Route('/kevin', name: 'kevin')]
+    public function kevin(): Response
+    {
+        return $this->render('pages/kevin.html.twig', [
+
+        ]);
+    }
+
 }
