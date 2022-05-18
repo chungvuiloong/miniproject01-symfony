@@ -47,4 +47,33 @@ class Index extends AbstractController
         ]);
     }
 
+    #[Route('/kevin', name: 'kevin')]
+    public function kevin(): Response
+    {
+        return $this->render('pages/kevin.html.twig', [
+        ]);
+    }
+
+    #[Route('/mrjay', name: 'mrjay')]
+    public function mrjay(): Response
+    {
+        return $this->render('pages/mrjay.html.twig', [
+        ]);
+    }
+
+    #[Route('/eric', name: 'eric')]
+    public function eric(): Response
+    {
+        return $this->render('pages/eric.html.twig', [
+        ]);
+    }
+
+    #[Route('/nayyer', name: 'nayyer')]
+    public function nayyer(): Response
+    {
+        return $this->render('pages/nayyer.html.twig', [
+        ]);
+    }
+
+
 }
