@@ -75,5 +75,13 @@ class Index extends AbstractController
         ]);
     }
 
+    #[Route('/pricing', name: 'pricing')]
+    public function pricing(): Response
+    {
+        return $this->render('pages/pricing.html.twig', [
+        ]);
+    }
+
+
 
 }
