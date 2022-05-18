@@ -32,11 +32,18 @@ class Index extends AbstractController
         ]);
     }
 
+    #[Route('/todolist', name: 'toDo')]
+    public function toDo(): Response
+    {
+        return $this->render('pages/toDo.html.twig', [
+
+        ]);
+    }
+
     #[Route('/team', name: 'team')]
     public function team(): Response
     {
         return $this->render('pages/team.html.twig', [
-
         ]);
     }
 
