@@ -23,6 +23,7 @@
         {% block stylesheets %}
             {# <link rel="stylesheet" href="/build/app.css"> #}
             <link rel="stylesheet" href="{{asset('/build/app.css')}}">
+            {# <link rel="stylesheet" href="{{asset('/assets/styles/app.css')}}"> #}
             {# <link rel="stylesheet" href="/styles/app.css"> #}
         {% endblock %}
 
@@ -63,7 +64,7 @@
         
         </header>
 
-        
+
         <div class="container d-flex flex-column">
             {% block body %}
             
