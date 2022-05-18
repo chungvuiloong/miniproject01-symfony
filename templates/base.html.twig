@@ -23,6 +23,7 @@
         {% block stylesheets %}
             {# <link rel="stylesheet" href="/build/app.css"> #}
             <link rel="stylesheet" href="{{asset('/build/app.css')}}">
+            {# <link rel="stylesheet" href="{{asset('/assets/styles/app.css')}}"> #}
             {# <link rel="stylesheet" href="/styles/app.css"> #}
         {% endblock %}
 
@@ -62,8 +63,13 @@
 
         
         </header>
+
+
         <div class="container d-flex flex-column">
-            {% block body %}{% endblock %}
+            {% block body %}
+            
+            
+            {% endblock %}
         </div>
     
             <!-- Footer -->
@@ -135,7 +141,7 @@
                                 Useful links
                             </h6>
                             <p class="navbar-nav">
-                                <a href="#!" class="nav-link">Pricing</a>
+                                <a href="{{path('pricing')}}" class="nav-link">Pricing</a>
                             </p>
                             <p class="navbar-nav">
                                 <a href="#!" class="nav-link">Settings</a>
