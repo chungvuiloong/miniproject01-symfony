@@ -19,7 +19,7 @@ h1 {
         margin: 0 auto;
         padding: 30px 30px 0 30px;
         /* background-color: #3f43fd; */
-        background-color: #3f43fd;
+        background-color: rgb(13,110,253);
         overflow: hidden;
     }
     .single_advisor_profile .advisor_thumb::after {
