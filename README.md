@@ -1,7 +1,7 @@
 # miniproject01-symfony
-Please install composer via:
+Before starting this project, please install composer at terminal:
 
-install composer install.
+composer install.
 
 ## About the miniproject01
 The function pages are:
