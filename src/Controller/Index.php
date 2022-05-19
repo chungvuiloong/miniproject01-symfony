@@ -32,10 +32,10 @@ class Index extends AbstractController
         ]);
     }
 
-    #[Route('/todolist', name: 'toDo')]
+    #[Route('/todos', name: 'app_todos')]
     public function toDo(): Response
     {
-        return $this->render('pages/toDo.html.twig', [
+        return $this->render('todos/index.html.twig', [
 
         ]);
     }
